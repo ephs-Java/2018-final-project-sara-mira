@@ -160,7 +160,6 @@ public class meeme {
 		if (ans.equals("d")) {
 			total += 4;
 		}
-		System.out.println(total);
 		Desktop d = Desktop.getDesktop();
 		if (total < 15) {
 			URI croissant = new URI("https://www.youtube.com/watch?v=ZzWqfJFxC0w");
