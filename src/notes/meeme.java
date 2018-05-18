@@ -1,5 +1,5 @@
 package notes;
-
+//
 import java.util.Scanner;
 import java.awt.Color;
 import java.awt.Desktop;
