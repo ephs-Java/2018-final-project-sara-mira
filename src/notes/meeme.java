@@ -175,23 +175,53 @@ public class meeme {
 		System.out.println(total);
 		Desktop d = Desktop.getDesktop();
 		if (total < 15) {
-			URI croissant = new URI("https://www.youtube.com/watch?v=ZzWqfJFxC0w");
-			d.browse(croissant);
+			System.out.println("You are the croissant vine!\nYou love baked goods and are caring!"
+					+"\nYou can be overprotective, but its okay!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI croissant = new URI("https://www.youtube.com/watch?v=ZzWqfJFxC0w");
+				d.browse(croissant);	
+			}
 		} else if (total >= 15 && total < 20) {
-			URI rat = new URI("https://www.youtube.com/watch?v=JVQSBm_dpTg");
-			d.browse(rat);
+			System.out.println("You are the rat in grocery store vine!\nYou love to shop and you are pretty stealthy!"
+					+"\nYou can be nerve wracking!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI rat = new URI("https://www.youtube.com/watch?v=JVQSBm_dpTg");
+				d.browse(rat);
+			}
 		} else if (total >= 20 && total < 25) {
-			URI road = new URI("https://www.youtube.com/watch?v=6AYv6rV3NXE");
-			d.browse(road);
+			System.out.println("You are the road work ahead vine!\nYou are super sarcastic!"
+					+"\nYou can be pessimistic, but its okay!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI road = new URI("https://www.youtube.com/watch?v=6AYv6rV3NXE");
+				d.browse(road);
+			}
 		} else if (total >= 25 && total < 30) {
-			URI oovoo = new URI("https://www.youtube.com/watch?v=_cW-QwnzdI0");
-			d.browse(oovoo);
+			System.out.println("You are the oovoo javer vine!\nYou don't care about the newest trends."
+					+"\nYou live for yourself and not for others!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI oovoo = new URI("https://www.youtube.com/watch?v=_cW-QwnzdI0");
+				d.browse(oovoo);
+			}
 		} else if (total >= 30 && total < 35) {
-			URI chickens = new URI("https://www.youtube.com/watch?v=NsLKQTh-Bqo");
-			d.browse(chickens);
+			System.out.println("You are the chickens vine!\nYou love birds and appreciate nature!"
+					+"\nYou are ecofriendly!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI chickens = new URI("https://www.youtube.com/watch?v=NsLKQTh-Bqo");
+				d.browse(chickens);
+			}
 		} else {
-			URI tortilla = new URI("https://www.youtube.com/watch?v=21jLmc_Il3o");
-			d.browse(tortilla);
+			System.out.println("You are the tortilla vine! \nYou love mexican food!"
+					+"\nYou love puns and food!\nDo you want to see the vine?");
+			String response = keyboard.nextLine();
+			if(response.equals("yes")){
+				URI tortilla = new URI("https://www.youtube.com/watch?v=21jLmc_Il3o");
+				d.browse(tortilla);
+			}
 		}
 		
 
