@@ -187,7 +187,7 @@ public class meeme {
 			URI oovoo = new URI("https://www.youtube.com/watch?v=_cW-QwnzdI0");
 			d.browse(oovoo);
 		} else if (total >= 30 && total < 35) {
-			URI chickens = new URI("https://www.youtube.com/watch?v=RUTyw9tIc-M");
+			URI chickens = new URI("https://www.youtube.com/watch?v=NsLKQTh-Bqo");
 			d.browse(chickens);
 		} else {
 			URI tortilla = new URI("https://www.youtube.com/watch?v=21jLmc_Il3o");
