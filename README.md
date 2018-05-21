@@ -7,9 +7,9 @@ Our project is a picture game thing, similar to a personality
 quiz. Here are some of the components of our project:
 
 1. A set of questions to discover what "vine" best describes you based on your responses
-2. Creating an array list full of pictures to use for the quiz
-3. A set of 10-15 questions in the quiz
-4. Lots of if and for loops
+2. Code automatically opens a vine after the end of the quiz
+3. A set of 10 questions in the quiz
+4. Lots of if
 
 
 
