@@ -13,7 +13,9 @@ public class meeme {
 	public static void main(String[] args) throws URISyntaxException, IOException {
 		Scanner keyboard = new Scanner(System.in);
 		int total = 0;
-		System.out.println("Hello! This quiz will determine " + "what vine best decribes you!");
+		System.out.println("Hello! This quiz will determine " 
+		+ "what vine best decribes you!"
+				+"\nType a letter:)");
 		System.out.println("What is your favorite color?" 
 		+ "\na. pink" + "\nb. blue" + "\nc. orange" + "\nd. green");
 		String ans = keyboard.nextLine();
