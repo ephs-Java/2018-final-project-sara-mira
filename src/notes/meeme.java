@@ -1,9 +1,7 @@
 package notes;
 //
 import java.util.Scanner;
-import java.awt.Color;
 import java.awt.Desktop;
-import java.awt.Font;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -15,7 +13,7 @@ public class meeme {
 		int total = 0;
 		System.out.println("Hello! This quiz will determine " 
 		+ "what vine best decribes you!"
-				+"\nType a letter:)");
+				+"\nType a letter");
 		System.out.println("What is your favorite color?" 
 		+ "\na. pink" + "\nb. blue" + "\nc. orange" + "\nd. green");
 		String ans = keyboard.nextLine();
